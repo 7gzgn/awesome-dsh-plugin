@@ -1,0 +1,6 @@
+url: https://github.com/7gzgn/dsh-self-restart
+name: 7gzgn/dsh-self-restart
+category: tools
+description:
+  en: 'Self-restart for the DSH host: the agent schedules a restart, finishes its reply first, then a helper that survives the kill stops and relaunches the app, checks the listener came back and reports the outcome. Silent when idle: no daemon, no polling.'
+  zh: '让 agent 自己安排一次 DSH 重启：先排程、把这一轮回复说完，再由一个能活过这次重启的 helper 停掉宿主、原地拉起、体检并留下报告。装插件/改代码要重载宿主时不用再喊人动手；平时完全静默，不常驻、不轮询、不占资源。'
