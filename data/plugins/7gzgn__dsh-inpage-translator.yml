@@ -1,0 +1,6 @@
+url: "https://github.com/7gzgn/dsh-inpage-translator"
+name: "dsh-inpage-translator"
+category: browser
+description:
+  en: "Put a translate button into the page the agent is looking at: one click replaces every visible text node in place, another click restores the original. Long pages are chunked, repeats are translated once, and the host LLM service does the work (the plugin holds no API key)."
+  zh: 给内置浏览器的当前页面放一个浮层按钮「🈯 译」：点一下，页面上每个可见文本节点原地换成译文；再点一下回到原文。长页面自动分块、重复串只翻一次，翻译走宿主模型服务 —— 插件不持有任何 API key。
