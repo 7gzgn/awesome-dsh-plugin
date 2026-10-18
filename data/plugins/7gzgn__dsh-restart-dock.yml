@@ -1,0 +1,6 @@
+url: "https://github.com/7gzgn/dsh-restart-dock"
+name: "dsh-restart-dock"
+category: dev
+description:
+  en: "A small dock in the DSH Web UI: restart the host or reload the page in one click. Restart asks first (now / 30s / 60s / 2min / cancel), the dock drags to any edge and stays anchored when the window resizes, and an optional particle wave plays before the page reloads. Refresh checks the plugin bundle first and refuses when it is still rebuilding or broken, so a reload can never brick the app."
+  zh: DSH 界面上一小框：一键重启宿主、一键刷新页面。重启会先问「立即 / 30 秒 / 60 秒 / 2 分钟 / 取消」，倒计时可撤回；小框可拖到任意边缘、窗口缩放时自动贴边；刷新前会播放一段粒子浪。刷新前先检查插件包，重建中或包坏了就不刷，避免把应用刷成起不来的样子。
